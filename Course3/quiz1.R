@@ -43,8 +43,4 @@ check <- function(y, t) {
         print(y)
 }
 t <- system.time(y <- sapply(split(DT$pwgtp15, DT$SEX), mean))
-<<<<<<< HEAD
 check(y, t)
-=======
-check(y, t)
->>>>>>> 8c4701186501978782eb89bf0357216a961a92cd
