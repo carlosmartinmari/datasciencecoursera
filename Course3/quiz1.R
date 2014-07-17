@@ -44,4 +44,3 @@ check <- function(y, t) {
 }
 t <- system.time(y <- sapply(split(DT$pwgtp15, DT$SEX), mean))
 check(y, t)
-
